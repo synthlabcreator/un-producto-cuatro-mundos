@@ -1,0 +1,307 @@
+{
+ "_comment": "Nike spec reel: 4 AI scenes + product burst + slowed push-in + end card. Scene 4 shots 1-3 are 'n' (walking). target_frames put every cut on the beat; song_drop lands on the cut to the burst (28.333 s).",
+ "fps": 24,
+ "width": 1080,
+ "height": 1920,
+ "duck_db": 14,
+ "scenes": [
+  {
+   "video": "clips/scene1.mp4",
+   "start": 0,
+   "end": 10.02,
+   "target_frames": 161,
+   "voice": [
+    [
+     4.69,
+     5.46
+    ],
+    [
+     8.54,
+     10.02
+    ]
+   ],
+   "shots": [
+    [
+     0,
+     0.96,
+     "c",
+     2.0
+    ],
+    [
+     0.96,
+     2.29,
+     "c",
+     2.6
+    ],
+    [
+     2.29,
+     4.33,
+     "c",
+     3.2
+    ],
+    [
+     4.33,
+     5.54,
+     "c",
+     2.0
+    ],
+    [
+     5.54,
+     6.96,
+     "c",
+     2.6
+    ],
+    [
+     6.96,
+     8.17,
+     "c",
+     2.8
+    ],
+    [
+     8.17,
+     10.02,
+     "c",
+     2.0
+    ]
+   ]
+  },
+  {
+   "video": "clips/scene2.mp4",
+   "start": 0,
+   "end": 10.0,
+   "target_frames": 164,
+   "voice": [
+    [
+     7.8,
+     8.46
+    ],
+    [
+     8.93,
+     9.79
+    ]
+   ],
+   "shots": [
+    [
+     0,
+     1.71,
+     "c",
+     2.6
+    ],
+    [
+     1.71,
+     3.12,
+     "c",
+     2.8
+    ],
+    [
+     3.12,
+     4.46,
+     "c",
+     3.2
+    ],
+    [
+     4.46,
+     5.17,
+     "k",
+     2.2
+    ],
+    [
+     5.17,
+     5.92,
+     "c",
+     1.8
+    ],
+    [
+     5.92,
+     7.12,
+     "c",
+     2.6
+    ],
+    [
+     7.12,
+     10.0,
+     "c",
+     2.4
+    ]
+   ]
+  },
+  {
+   "video": "clips/scene3.mp4",
+   "start": 0,
+   "end": 9.96,
+   "target_frames": 153,
+   "voice": [
+    [
+     7.91,
+     8.61
+    ],
+    [
+     8.98,
+     9.86
+    ]
+   ],
+   "shots": [
+    [
+     0,
+     1.54,
+     "c",
+     2.6
+    ],
+    [
+     1.54,
+     3.17,
+     "c",
+     3.2
+    ],
+    [
+     3.17,
+     4.54,
+     "c",
+     3.2
+    ],
+    [
+     4.54,
+     5.12,
+     "c",
+     1.8
+    ],
+    [
+     5.12,
+     6.21,
+     "k",
+     2.4
+    ],
+    [
+     6.21,
+     7.54,
+     "c",
+     2.6
+    ],
+    [
+     7.54,
+     9.96,
+     "c",
+     2.4
+    ]
+   ]
+  },
+  {
+   "video": "clips/scene4.mp4",
+   "start": 0.42,
+   "end": 10.417,
+   "target_frames": 202,
+   "voice": [
+    [
+     8.31,
+     9.2
+    ],
+    [
+     9.58,
+     10.417
+    ]
+   ],
+   "shots": [
+    [
+     0.42,
+     1.96,
+     "n",
+     1
+    ],
+    [
+     1.96,
+     3.38,
+     "n",
+     1
+    ],
+    [
+     3.38,
+     4.67,
+     "n",
+     1
+    ],
+    [
+     4.67,
+     5.71,
+     "c",
+     2.6
+    ],
+    [
+     5.71,
+     6.88,
+     "k",
+     2.4
+    ],
+    [
+     6.88,
+     7.96,
+     "c",
+     2.6
+    ],
+    [
+     7.96,
+     10.417,
+     "c",
+     2.4
+    ]
+   ]
+  }
+ ],
+ "tail": [
+  {
+   "video": "clips/scene5_burst.mp4",
+   "start": 10.417,
+   "frames": 50,
+   "volume": 0.55
+  },
+  {
+   "video": "clips/scene5_burst.mp4",
+   "start": 12.5,
+   "frames": 10,
+   "slow": 2,
+   "push_in": 0.07,
+   "volume": 0
+  },
+  {
+   "images": "endcard/frame-%03d.png",
+   "frames": 131
+  }
+ ],
+ "music": {
+  "instrumental": "song/stems/htdemucs_ft/song/no_vocals.wav",
+  "vocals": "song/stems/htdemucs_ft/song/vocals.wav",
+  "song_drop": 38.522,
+  "beat": 0.4003,
+  "lines": [
+   {
+    "text": "Yeah",
+    "start": 4.1,
+    "end": 4.95,
+    "shift_beats": 16
+   },
+   {
+    "text": "Court to the sky",
+    "start": 12.74,
+    "end": 15.8,
+    "shift_beats": 12
+   },
+   {
+    "text": "Rain on the ramp",
+    "start": 19.12,
+    "end": 22.1,
+    "shift_beats": 12
+   },
+   {
+    "text": "Walk with the weight",
+    "start": 28.7,
+    "end": 31.9,
+    "shift_beats": 4
+   },
+   {
+    "text": "One pair, four worlds",
+    "start": 38.24,
+    "end": 44.6,
+    "shift_beats": 2
+   }
+  ]
+ }
+}
